@@ -1,0 +1,90 @@
+/*------>>>>>>>>> Nav bar */
+.user-icon {
+  font-size: 25px;
+}
+.diff {
+  margin-left: 30px;
+}
+
+
+/*----->>>>>>> Table */
+.table {
+  background-color: #a6a611;
+  width: 100%;
+  margin: 0% 0%;
+  border: 0px solid black;
+  border-radius: 20px;
+}
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0px;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.custom-checkbox:checked {
+  background-color: #545955;
+}
+
+.outer {
+  padding: 100px 300px 0px 300px;
+}
+.table-container {
+  max-height: 600px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  overflow: auto;
+  background-color: yellow;
+}
+
+.custom-table {
+  width: 100%;
+}
+
+/* ----->>>>>>>Button */
+.btn-field {
+  width: 100%;
+  display: flex;
+}
+
+.btn-field button {
+  flex-basis: 50%;
+  background: #3c3a3e;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 25px;
+}
+
+.left {
+  margin-left: 320px;
+}
+.lefte {
+  margin-left: 500px;
+}
